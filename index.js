@@ -29,7 +29,7 @@ junctions.map(
       const boundaries = filename
         .substring(0, filename.length - 4) // remove .cif
         .split("_")
-        .slice(3);
+        .slice(2);
       const ranges = boundaries
         .map((v, index) => {
           if (index % 2) return;
